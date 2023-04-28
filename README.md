@@ -45,6 +45,5 @@ uso Mysql para administracion del las base de datos.</p>
   * mysql
   * PHP
 ## Autores
-  [<img src="https://avatars.githubusercontent.com/u/63215534?v=4" width=115><br><sub>Miguel Quijano</sub>]
-  
+   | [<img src="https://avatars.githubusercontent.com/u/63215534?v=4" width=115><br><sub>Miguel Quijano</sub>](https://github.com/MiguelQuijano0) |
 
