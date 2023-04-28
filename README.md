@@ -16,23 +16,23 @@ uso Mysql para administracion del las base de datos.</p>
 <p>login y registro de usuarios</p>
 
 <img src="https://user-images.githubusercontent.com/63215534/235232846-eb390e3f-16f4-4145-ba61-a3c238277f90.png">
-![image](https://user-images.githubusercontent.com/63215534/235233045-e1e99f79-e29f-4fda-8f86-0f7fd31b12d7.png)
+<img src="https://user-images.githubusercontent.com/63215534/235233045-e1e99f79-e29f-4fda-8f86-0f7fd31b12d7.png">
 
 <p>home</p>
-![image](https://user-images.githubusercontent.com/63215534/235233194-8aa85eb2-f28c-4088-804d-3be546bc9eec.png)
+<img src="https://user-images.githubusercontent.com/63215534/235233194-8aa85eb2-f28c-4088-804d-3be546bc9eec.png">
 
 <p>Carrete de imagenes</p>
-![image](https://user-images.githubusercontent.com/63215534/235233380-2a29f3bf-2179-4f47-a721-965bdb7580c1.png)
+<img src="https://user-images.githubusercontent.com/63215534/235233380-2a29f3bf-2179-4f47-a721-965bdb7580c1.png">
 
 <p>Sipnosis</p>
-![image](https://user-images.githubusercontent.com/63215534/235233880-e18c3e0d-9e43-4f10-ba9c-f23112fbe141.png)
-![image](https://user-images.githubusercontent.com/63215534/235233922-b6ed5843-e02a-4885-a707-984670a5d4f9.png)
+<img src="https://user-images.githubusercontent.com/63215534/235233880-e18c3e0d-9e43-4f10-ba9c-f23112fbe141.png">
+<img src="https://user-images.githubusercontent.com/63215534/235233922-b6ed5843-e02a-4885-a707-984670a5d4f9.png">
 
 <p>Tienda</p>
-![image](https://user-images.githubusercontent.com/63215534/235234024-b5195455-bfb3-4ebc-87ef-cc727137fbf0.png)
+<img src="https://user-images.githubusercontent.com/63215534/235234024-b5195455-bfb3-4ebc-87ef-cc727137fbf0.png">
 
 <p>Carrito de compras</p>
-![image](https://user-images.githubusercontent.com/63215534/235234270-7ca84339-ae93-48f2-9eb3-feaf7064052d.png)
+<img src="https://user-images.githubusercontent.com/63215534/235234270-7ca84339-ae93-48f2-9eb3-feaf7064052d.png">
 
 ## 📁 acceso al proyecto
 <p>para abrir el proyecto se necesita instalar xampp o algun servidor web local, mueva la carpeta del proyecto en el la carpeta 
@@ -43,9 +43,8 @@ uso Mysql para administracion del las base de datos.</p>
   * JavaScript
   * CSS
   * mysql
-  *PHP
+  * PHP
 ## Autores
-  | [<img src="https://avatars.githubusercontent.com/u/63215534?v=4" width=115><br><sub>Miguel Quijano</sub>] |
-  | :---: |
+  [<img src="https://avatars.githubusercontent.com/u/63215534?v=4" width=115><br><sub>Miguel Quijano</sub>]
   
 
