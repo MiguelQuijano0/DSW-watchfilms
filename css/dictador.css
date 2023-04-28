@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Roboto", sans-serif
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(350px, auto);
+}
+
+/*agrega estilo al contenedor de la informacion de la pelicula*/
+
+.side {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image: url('https://www.themoviedb.org/t/p/w600_and_h900_bestv2/n0W7kajF4GFMRk2c0wWwMQqTaDM.jpg');
+    margin-top: 5rem;
+    padding: 20rem;
+    max-height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.title h1 {
+    font-size: 5rem;
+    padding-top: 3rem;
+}
+
+.main {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding-top: 25rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 2rem;
+}
+
+.main h2 {
+    font-size: 3.5rem;
+    color: black;
+}
+
+.main p {
+    margin-top: 2rem;
+}
+
+
+.title {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    color: black;
+}
+
+section {
+    padding: 5rem 5rem;
+    margin-left: 5rem;
+    display: grid;
+    grid-row: 3/5;
+    grid-column: 1 / 3;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
+    text-align: left;
+    position: relative;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /*   align-items: center; */
+    /*   align-content: center; */
+    flex-direction: row;
+    justify-content: space-around;
+    /*   gap: 10rem 10rem; */
+}
+
+.card {
+    width: 600px;
+    height: 100%;
+    display: block;
+    margin: 1rem 0;
+    box-shadow: .5rem .5rem 3rem gray;
+    border-radius: 5px;
+}
+
+.card:hover {
+    background: lightblue;
+    cursor: pointer;
+}
+
+.card .card-img {
+    width: 200px;
+    height: 200px;
+
+    padding: 1rem 1rem 0rem 1rem;
+    float: left;
+    border-radius: 2rem;
+}
+
+.card h2 {
+    text-align: left;
+    font-size: 3rem;
+    color: black;
+}
+
+.card p {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.description {
+    margin: 1.5rem 0;
+    text-align: center;
+    color: black;
+}
+
+
+
+/*asisgna una tamano a los archivos media*/
+
+@media only screen and (max-width: 800px) {
+    .side {
+        display: none;
+
+    }
+}
+

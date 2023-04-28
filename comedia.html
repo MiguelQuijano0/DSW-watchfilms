@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comedia</title>
+    <!-- Referencias a los CSSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/carrete.css">
+    <!-- Referencias al archivos JS dele carrete de peliculas -->
+    <script src="js/Carrete.js"></script>
+    <!-- Referencia al JS de la fuente de letra -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<header>
+	<img src="Whatchfilms-logo.png" width="100" height="70" alig="middle">
+	<nav>
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropbtn">Generos</a>
+				<!-- Menu desplegabe de generos -->
+				<div class="dropdown-content">
+					<a href="Terror.html">Terror</a>
+					<a href="comedia.html">Comedia</a>
+					<a href="accion.html">Accion</a>
+					<!-- Botones lateral de configuracion de sesion -->
+					<li style="float:right"><a href="logout.php" class="btn btn-danger">Cierra la sesión</a></li>
+					<li style="float:right"><a href="reset-password.php" class="btn btn-warning">Cambia tu contraseña</a></li>
+				</div>
+			</li>
+			<li><a href="products.php">Tienda</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+</header>
+<body>
+    <article>
+        <!-- Container del slider -->
+        <section id="container-slider">
+            <!-- Referencia al JS para flecha anterior -->
+            <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i
+                    class="fas fa-chevron-circle-left"></i></a>
+            <!-- Referencia al JS para flecha siguiente -->
+            <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i
+                    class="fas fa-chevron-circle-right"></i></a>
+                    <!-- comienza el list slider -->
+                    <ul class="listslider">
+                <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                <li><a itlist="itList_1" href="#"></a></li>
+                <li><a itlist="itList_2" href="#"></a></li>
+                <li><a itlist="itList_3" href="#"></a></li>
+            </ul>
+            <!-- Slider de peliculas -->
+            <ul id="slider">
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/m5dA4JZsj78EBTa2D6imWOAebwB.jpg'); z-index:0; opacity: 1;">
+                    <div class="content_slider">
+                        <div>
+                            <h2>Scary Movie</h2>
+                            <p>Una noche, Drew Becker recibe una llamada anónima de un maníaco. Acorralada en su casa y
+                                después en su jardín, finalmente es asesinada. Su muerte sume a sus compañeros de
+                                instituto en una pesadilla, especialmente porque ahora tendrán que enfrentarse a un
+                                asesino en serie que se oculta entre ellos.</p>
+                            <a href="scary.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/jWq20KNbg5txb28tLxJl0yLYuxp.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>El Dictador</h2>
+                            <p>Un dictador chiflado decide arriesgar su vida para evitar a toda costa que la tan temida
+                                democracia llegue a su país... al que ama con la misma virulencia que oprime. Al mismo
+                                tiempo, encontrará el amor.</p>
+                            <a href="dictador.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/5irvSEb1XG88Z4iSDTyyr1AHjz4.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>jackass</h2>
+                            <p>En 'Jackass: la película', una comedia a modo de documental, la idea principal es hacer
+                                burradas. Los encargados de desarrollar estas peripecias son los mismos inconscientes
+                                que las realizaban con anterioridad en la caja tonta, un bulliciso equipo técnico y
+                                artístico financiado por Paramount Pictures y MTV Films.</p>
+                            <a href="jackass.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/y7PXbMYolxWe21HuF0xrgABhvRY.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>Una pareja de idiotas</h2>
+                            <p>La vida de Lloyd y Harry, dos amigos de una estupidez supina, es un auténtico desastre.
+                                Cuando Lloyd se enamora de una chica que olvida un maletín en una limusina, los dos
+                                amigos emprenden un viaje por todo el país para devolvérselo.</p>
+                            <a href="pareja.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+</body>
+<footer>
+	<br>
+	<p><b>CONTACTENOS</b></p>
+	<a href="">
+		<p>Facebook</p>
+	</a>
+	<p>
+		Whatchfilms@films.com
+	</p>
+	<br>
+</footer>
+
+</html>

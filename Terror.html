@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terror</title>
+    <!-- Referencias a los archivos CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/singup.css">
+    <link rel="stylesheet" href="css/carrete.css">
+    <!-- Referencia al archivo JS del carrete -->
+    <script src="js/Carrete.js"></script>
+    <!-- Referencia al JS de la fuente -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<header>
+    <!-- Logo de la pagina -->
+	<img src="Whatchfilms-logo.png" width="100" height="70" alig="middle">
+    <!-- inicia la barra de avegacion -->
+	<nav>
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropbtn">Generos</a>
+				<!-- Menu desplegabe de generos -->
+				<div class="dropdown-content">
+					<a href="Terror.html">Terror</a>
+					<a href="comedia.html">Comedia</a>
+					<a href="accion.html">Accion</a>
+					<!-- Botones lateral de configuracion de sesion -->
+					<li style="float:right"><a href="logout.php" class="btn btn-danger">Cierra la sesión</a></li>
+					<li style="float:right"><a href="reset-password.php" class="btn btn-warning">Cambia tu contraseña</a></li>
+				</div>
+			</li>
+			<li><a href="products.php">Tienda</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+</header>
+<body>
+    <article>
+        <!-- Contenedor del slider de peliculas -->
+        <section id="container-slider">
+            <!-- referencias al JS de la flecha anterior -->
+            <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i
+                    class="fas fa-chevron-circle-left"></i></a>
+            <!-- referejcia al JS  de la flecha siguiente-->
+            <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i
+                    class="fas fa-chevron-circle-right"></i></a>
+            <!-- Slider de la lista de peliculas -->
+            <ul class="listslider">
+                <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                <li><a itlist="itList_1" href="#"></a></li>
+                <li><a itlist="itList_2" href="#"></a></li>
+                <li><a itlist="itList_3" href="#"></a></li>
+            </ul>
+            <!-- Slider de peliculas -->
+            <ul id="slider">
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/ecKQlAEG95k62SMGhvX83oEqANK.jpg'); z-index:0; opacity: 1;">
+                    <div class="content_slider">
+                        <div>
+                            <h2>El Conjuro</h2>
+                            <p>Después de mudarse a una granja en Rhode Island, una familia experimenta fenómenos
+                                sobrenaturales y busca la ayuda de una famosa pareja de investigadores paranormales.</p>
+                            <a href="elconjuro.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/aTSA5zMWlVFTYBIZxTCMbLkfOtb.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>La Masacre de Texas</h2>
+                            <p>En esta secuela, unos influencers en busca de un nuevo comienzo en un pueblo fantasma de
+                                Texas se topan con Leatherface, el infame asesino de la máscara de piel humana.</p>
+                            <a href="masacre.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/j1PzqAMU4LzUnz60q9EEqmeX24n.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>Viernes 13</h2>
+                            <p>Clay busca a su hermana desaparecida mientras un asesino enmascarado les persigue a él y
+                                a un grupo de adolescentes en esta nueva versión del clásico de terror.</p>
+                            <a href="friday.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/b28hvAO3aeu0yzXoy6JrV1XMWab.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>Donnie Darko</h2>
+                            <p>Donnie es un chico americano dotado de gran inteligencia e imaginación. Tras escapar
+                                milagrosamente de una muerte casi segura, comienza a sufrir alucinaciones que lo llevan
+                                a actuar como nunca hubiera imaginado y a descubrir un mundo insólito a su alrededor</p>
+                            <a href="donnie.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </article>
+</body>
+<footer>
+	<br>
+	<p><b>CONTACTENOS</b></p>
+	<a href="">
+		<p>Facebook</p>
+	</a>
+	<p>
+		Whatchfilms@films.com
+	</p>
+	<br>
+</footer>
+</html>

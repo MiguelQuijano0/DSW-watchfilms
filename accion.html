@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accion</title>
+    <!-- referencia al archivo css -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/carrete.css">
+    <!-- Referencia al archivo JS del carrete -->
+    <script src="js/Carrete.js"></script>
+    <!-- Referencia al JS de la fuente de letra -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<header>
+	<img src="Whatchfilms-logo.png" width="100" height="70" alig="middle">
+	<nav>
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropbtn">Generos</a>
+				<!-- Menu desplegabe de generos -->
+				<div class="dropdown-content">
+					<a href="Terror.html">Terror</a>
+					<a href="comedia.html">Comedia</a>
+					<a href="accion.html">Accion</a>
+					<!-- Botones lateral de configuracion de sesion -->
+					<li style="float:right"><a href="logout.php" class="btn btn-danger">Cierra la sesión</a></li>
+					<li style="float:right"><a href="reset-password.php" class="btn btn-warning">Cambia tu contraseña</a></li>
+				</div>
+			</li>
+			<li><a href="products.php">Tienda</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+</header>
+<body>
+    <article>
+        <!-- Contenedor de slider -->
+        <section id="container-slider">
+            <!-- referencias al JS de la flecha anterior -->
+            <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i
+                    class="fas fa-chevron-circle-left"></i></a>
+            <!-- referejcia al JS  de la flecha siguiente-->
+            <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i
+                    class="fas fa-chevron-circle-right"></i></a>
+            <!-- Slider de la lista de peliculas -->
+            <ul class="listslider">
+                <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                <li><a itlist="itList_1" href="#"></a></li>
+                <li><a itlist="itList_2" href="#"></a></li>
+                <li><a itlist="itList_3" href="#"></a></li>
+            </ul>
+            <!-- Slider de peliculas -->
+            <ul id="slider">
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/1ZnMV6DPfhKD0UXWAZ9FLWJUOVV.jpg'); z-index:0; opacity: 1;">
+                    <div class="content_slider">
+                        <div>
+                            <h2>Duro de Matar</h2>
+                            <p>Un joven oficial de la policía de Hong Kong viaja hasta la ciudad de Nueva York para
+                                asistir a un compromiso familiar muy importante: la boda de su tío Bill. Una vez que se
+                                encuentra allí instalado y preparado para disfrutar de la agradable velada y posterior
+                                celebración, es asaltado por una banda callejera a la que debe enfrentarse por motivos
+                                económicos.
+                                Además, se verá en la obligación de proteger a los comerciantes locales del barrio y
+                                velar por la seguridad de su familia, que se hospeda en la zona.</p>
+                            <a href="duro.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/c1LfZZY2bC3apqohsKymlM6NqHx.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>John Wick 3</h2>
+                            <p>Con una recompensa de 14 millones de dólares por su cabeza, John Wick (Keanu Reeves) está
+                                en plena huída. Después de haber roto la regla de matar a alguien en el interior del
+                                Hotel Continental, John Wick debería haber sido ejecutado. Excomunicado, con su
+                                membresía revocada, todavía dispone de una hora de ventaja para poder huir. A partir de
+                                ese tiempo, hombres y mujeres sicarios de todo el mundo tratarán de detenerle, eso sí,
+                                encontrará una aliada que sigue creyendo en él.</p>
+                            <a href="jhon.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>Top Gun: Maverick</h2>
+                            <p>Después de más de treinta años de servicio, a Pete 'Maverick' Mitchell (Tom Cruise) su
+                                reputación le precede. Maverick fue uno de los mejores aviadores de la Armada,
+                                condecorado con medallas de combate y menciones, y responsable de hazañas legendarias.
+                            </p>
+                            <a href="top.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('https://www.themoviedb.org/t/p/original/11Nc1edpNxn2lpm8a2XuTVkTH8C.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>El Gladiador</h2>
+                            <p>En el año 180 el Imperio Romano controla todo el mundo conocido hasta la fecha. Máximo,
+                                interpretado por el ya conocido Russell Crowe, es un General romano muy importante para
+                                el Emperador Marco Aurelio, pues sólo él ha conseguido victoria tras victoria,
+                                destacando por su valentía, dedicación y lealtad al Imperio. Cómodo, el hijo de Marco
+                                Aurelio, está celoso del prestigio de Máximo y del amor que le profesa su padre</p>
+                            <a href="gladiador.html" target="_blank" class="btnSlider">Ver</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+</body>
+<footer>
+	<br>
+	<p><b>CONTACTENOS</b></p>
+	<a href="">
+		<p>Facebook</p>
+	</a>
+	<p>
+		Whatchfilms@films.com
+	</p>
+	<br>
+</footer>
+</html>
