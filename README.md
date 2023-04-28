@@ -1,5 +1,5 @@
 # DSW-watchfilms
-<em> <h1 align="center"> # DEsarrollo web pagina de sipnosis de peliculas "whatcfilms" </h1> </em>
+<em> <h1 align="center"> # Desarrollo web, Pagina de sipnosis de peliculas "whatcfilms" </h1> </em>
 
 ![Whatchfilms-logo](https://user-images.githubusercontent.com/63215534/235230852-679146ab-f2d3-4490-b1bc-7a9814f35625.png)
 
@@ -14,7 +14,8 @@ uso Mysql para administracion del las base de datos.</p>
 ## :hammer:Funcionalidades del proyecto
 
 <p>login y registro de usuarios</p>
-[image](https://user-images.githubusercontent.com/63215534/235232846-eb390e3f-16f4-4145-ba61-a3c238277f90.png)
+
+<img src="https://user-images.githubusercontent.com/63215534/235232846-eb390e3f-16f4-4145-ba61-a3c238277f90.png">
 ![image](https://user-images.githubusercontent.com/63215534/235233045-e1e99f79-e29f-4fda-8f86-0f7fd31b12d7.png)
 
 <p>home</p>
